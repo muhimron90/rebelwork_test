@@ -6,15 +6,13 @@ import {
   Text,
   StyleSheet,
 } from 'react-native';
-
-import Routers from './Router';
-export default class Apps extends Component {
+import {Actions} from 'react-native-router-flux';
+class movieList extends Component {
   render() {
     return (
-      // <View style={styles.container}>
-      //   <Text>I'm the Apps component</Text>
-      // </View>
-      <Routers />
+      <View style={styles.container}>
+        <Text>I'm the movieList component</Text>
+      </View>
     );
   }
 }
@@ -24,3 +22,5 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
+
+export default movieList;
