@@ -1,0 +1,3 @@
+rootProject.name = 'rebelworks_movies'
+
+include ':app'
